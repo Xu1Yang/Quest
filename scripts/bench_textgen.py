@@ -19,7 +19,11 @@ class ModelConfig:
 MODEL_CFGS = {
     "llama2-7b":
         ModelConfig(
-            model_path="/mnt/storage/models/Llama-2-7b-chat-hf"
+            model_path="/workspace/huggingface/model/Llama-2-7b-chat-hf"
+        ),
+    "mistral-7b":
+        ModelConfig(
+            model_path="/workspace/huggingface/model/Mistral-7B-v0.2"  # 请替换为您的Mistral模型实际路径
         ),
 }
 
